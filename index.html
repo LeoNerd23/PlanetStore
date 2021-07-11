@@ -1,24 +1,150 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="../PlanetStore/css/style.css">
-    <title>PlaneTStore</title>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <link rel="stylesheet" href="https://unpkg.com/tachyons@4.12.0/css/tachyons.min.css" />
+
+    <link rel="stylesheet" href="../PlanetStore/css/style.css" />
+
+    <title>CSS Grid e Flexbox</title>
 </head>
+
 <body>
+
     <header class="header">
-        <a href="#">Plane<span>TS</span>tore</a>
+        <a href="#section-flexbox">Plane<span class="span-logo">TS</span>tore</a>
         <nav>
             <ul class="menu">
-                <li><a href="#">Sobre</a></li>
-                <li><a href="#">Produtos</a></li>
-                <li><a href="#">Contato</a></li>
+                <li><a href="#section-flexbox">Section Flexbox</a></li>
+                <li><a href="#section-grid-1">Section Grid 1</a></li>
+                <li><a href="#section-grid-2">Section Grid 2</a></li>
+                <li><a href="#section-grid-3">Section Grid 3</a></li>
             </ul>
         </nav>
     </header>
-    
+
+    <h1>Section Flexbox</h1>
+
+    <section class="flex" id="section-flexbox">
+        <div>
+            <img src="./img/img1.jpg">
+            <p>Playstation 5</p>
+        </div>
+        <div>
+            <img src="./img/img2.jpg">
+            <p>Xbox Series X</p>
+        </div>
+        <div>
+            <img src="./img/img3.jpg">
+            <p>Xbox Series S</p>
+        </div>
+        <div>
+            <img src="./img/img5.jpg">
+            <p>PC Gamer</p>
+        </div>
+        <div>
+            <img src="./img/img5.jpg">
+            <p>PC Gamer</p>
+        </div>
+        <div>
+            <img src="./img/img6.jpg">
+            <p>Nintendo 3DSXL</p>
+        </div>
+    </section>
+
+    <h1>Section Grid 1</h1>
+
+    <section class="grid1" id="section-grid-1">
+        <div>
+            <img src="./img/img1.jpg">
+            <p>Playstation 5</p>
+        </div>
+        <div>
+            <img src="./img/img3.jpg">
+            <p>Xbox Series S</p>
+        </div>
+        <div>
+            <img src="./img/img4.jpg">
+            <p>Nintendo Switch</p>
+        </div>
+        <div>
+            <img src="./img/img5.jpg">
+            <p>PC Gamer</p>
+        </div>
+        <div>
+            <img src="./img/img6.jpg">
+            <p>Nintendo 3DSXL</p>
+        </div>
+        <div>
+            <img src="./img/img1.jpg">
+            <p>Playstation 5</p>
+        </div>
+        <div>
+            <img src="./img/img2.jpg">
+            <p>Xbox Series X</p>
+        </div>
+        <div>
+            <img src="./img/img4.jpg">
+            <p>Nintendo Switch</p>
+        </div>
+        <div>
+            <img src="./img/img3.jpg">
+            <p>Xbox Series S</p>
+        </div>
+        <div class="anuncio">
+            <img src="./img/img6.jpg">
+            <p>Nintendo 3DSXL</p>
+        </div>
+    </section>
+
+    <h1>Section Grid 2</h1>
+
+    <section class="grid2" id="section-grid-2">
+        <div class="video">
+            <img src="./img/img5.jpg">
+            <h2>PC Gamer</h2>
+        </div>
+        <div class="sidebar">
+            <div>
+                <img src="./img/img3.jpg">
+                <p>Xbox Series S</p>
+            </div>
+            <div>
+                <img src="./img/img1.jpg">
+                <p>Playstation 5</p>
+            </div>
+            <div>
+                <img src="./img/img2.jpg">
+                <p>Xbox Series X</p>
+            </div>
+            <div>
+                <img src="./img/img4.jpg">
+                <p>Nintendo Switch</p>
+            </div>
+        </div>
+    </section>
+
+    <h1>Section Grid 3</h1>
+
+    <section class="grid3" id="section-grid-3">
+        <div class="grid3-item">
+            <img src="./img/img6.jpg">
+            <p>Nintendo 3DSXL</p>
+        </div>
+        <div class="grid3-item">
+            <img src="./img/img2.jpg">
+            <p>Xbox Series S</p>
+        </div>
+        <div class="grid3-item">
+            <img src="./img/img1.jpg">
+            <p>Playstation 5</p>
+        </div>
+    </section>
+
 </body>
+
 </html>
